@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0;netcoreapp3.1</TargetFrameworks>
+    <Authors>DurSake Solutions</Authors>
+    <Owners>DurSake Solutions</Owners>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Description>A simple package to provide version support within an API</Description>
+    <Copyright>Copyright 2021</Copyright>
+    <PackageTags>DurSake DurSake.AspNetCore.ApiVersioning Swashbuckle ApiVersioning vMapper</PackageTags>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <LangVersion>latest</LangVersion>
+    <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage</TargetsForTfmSpecificBuildOutput>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DurSake.AspNetCore.ApiVersioning.Mapping\DurSake.AspNetCore.ApiVersioning.Mapping.csproj">
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <IncludeAssets>DurSake.AspNetCore.ApiVersioning.Mapping.dll</IncludeAssets>
+    </ProjectReference>
+    <ProjectReference Include="..\DurSake.AspNetCore.ApiVersioning.Swashbuckle\DurSake.AspNetCore.ApiVersioning.Swashbuckle.csproj">
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <IncludeAssets>DurSake.AspNetCore.ApiVersioning.Swashbuckle.dll</IncludeAssets>
+    </ProjectReference>
+  </ItemGroup>
+
+</Project>

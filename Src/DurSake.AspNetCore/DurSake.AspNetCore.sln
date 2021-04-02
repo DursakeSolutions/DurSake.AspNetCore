@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurSake.AspNetCore.ApiVersioning", "DurSake.AspNetCore.ApiVersioning\DurSake.AspNetCore.ApiVersioning.csproj", "{2A364CD7-DADC-4695-B039-D7A20F9D28B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurSake.AspNetCore.ApiVersioning.Mapping", "DurSake.AspNetCore.ApiVersioning.Mapping\DurSake.AspNetCore.ApiVersioning.Mapping.csproj", "{AFF7E93A-2683-4882-BE79-8230E6E092BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurSake.AspNetCore.ApiVersioning.Mapping.Tests", "DurSake.AspNetCore.ApiVersioning.Mapping.Tests\DurSake.AspNetCore.ApiVersioning.Mapping.Tests.csproj", "{1BDFA53A-BE6A-49D2-A9B7-114CA5C13DFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurSake.AspNetCore.ApiVersioning.Swashbuckle", "DurSake.AspNetCore.ApiVersioning.Swashbuckle\DurSake.AspNetCore.ApiVersioning.Swashbuckle.csproj", "{00359772-5F31-4B77-874C-53489C1ABE84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurSake.AspNetCore.ApiVersioning.Swashbuckle.Tests", "DurSake.AspNetCore.ApiVersioning.Swashbuckle.Tests\DurSake.AspNetCore.ApiVersioning.Swashbuckle.Tests.csproj", "{5DC8196D-B769-4897-9C5C-033F073C1E4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A364CD7-DADC-4695-B039-D7A20F9D28B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A364CD7-DADC-4695-B039-D7A20F9D28B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A364CD7-DADC-4695-B039-D7A20F9D28B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A364CD7-DADC-4695-B039-D7A20F9D28B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF7E93A-2683-4882-BE79-8230E6E092BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF7E93A-2683-4882-BE79-8230E6E092BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF7E93A-2683-4882-BE79-8230E6E092BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF7E93A-2683-4882-BE79-8230E6E092BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDFA53A-BE6A-49D2-A9B7-114CA5C13DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDFA53A-BE6A-49D2-A9B7-114CA5C13DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDFA53A-BE6A-49D2-A9B7-114CA5C13DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDFA53A-BE6A-49D2-A9B7-114CA5C13DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00359772-5F31-4B77-874C-53489C1ABE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00359772-5F31-4B77-874C-53489C1ABE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00359772-5F31-4B77-874C-53489C1ABE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00359772-5F31-4B77-874C-53489C1ABE84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC8196D-B769-4897-9C5C-033F073C1E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC8196D-B769-4897-9C5C-033F073C1E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC8196D-B769-4897-9C5C-033F073C1E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC8196D-B769-4897-9C5C-033F073C1E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A9DD877-2924-4D60-926E-FE37FA3142B3}
+	EndGlobalSection
+EndGlobal
